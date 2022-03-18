@@ -15,6 +15,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: "Configure AWS Credentials" Action For GitHub Actions
+      uses: aws-actions/configure-aws-credentials@v1
+
     - uses: actions/checkout@v2
     - name: Set up Python 3.8.12
       uses: actions/setup-python@v2
@@ -25,6 +28,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: setting up DVC
+      uses: iterative/setup-dvc@v1
+      run: |
+        dvc pull
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
