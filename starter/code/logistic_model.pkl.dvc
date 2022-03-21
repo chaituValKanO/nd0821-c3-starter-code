@@ -1,0 +1,4 @@
+outs:
+- md5: 899d80f0744aa00277eb92d8a42994e8
+  size: 1646
+  path: logistic_model.pkl
