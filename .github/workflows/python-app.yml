@@ -32,6 +32,8 @@ jobs:
     - name: Configure AWS Credentials Action For GitHub Actions
       uses: aws-actions/configure-aws-credentials@v1
       with:
+        aws-access-key-id: AKIAXMA7XGJUXQEIHZW2
+        aws-secret-access-key: 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
         aws-region: us-east-1
     - uses: iterative/setup-dvc@v1
     - run:  dvc pull
