@@ -31,9 +31,8 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: "Configure AWS Credentials Action For GitHub Actions"
       uses: aws-actions/configure-aws-credentials@v1
-    - name: setting up DVC
-      uses: iterative/setup-dvc@v1
-      run:  dvc pull
+    - uses: iterative/setup-dvc@v1
+    - run:  dvc pull
     - name: Test with pytest
       run: |
         pytest
