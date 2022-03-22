@@ -1,3 +1,6 @@
+import sys
+sys.path.append('../nd0821-c3-starter-code')
+
 from fastapi.testclient import TestClient
 from fastapi.encoders import jsonable_encoder
 

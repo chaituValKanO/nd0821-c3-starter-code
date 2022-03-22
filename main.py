@@ -1,3 +1,5 @@
+import os
+
 from typing import Optional
 
 from fastapi import FastAPI
@@ -13,6 +15,12 @@ from starter.code.predict import predict
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s")
 logger = logging.getLogger()
+
+if "DYNO" in os.environ and os.path.isdir(".dvc"):
+    os.system("dvc config core.no_scm true")
+    if os.system("dvc pull") != 0:
+        exit("dvc pull failed")
+    os.system("rm -r .dvc .apt/usr/lib/dvc")
 
 class CensusData(BaseModel):
     age: float
