@@ -1,6 +1,10 @@
 import joblib
+import os
 
 import pandas as pd
+import numpy as np
+import json
+
 from sklearn.model_selection import train_test_split
 
 from starter.code.data import clean_data, process_data
@@ -19,10 +23,10 @@ cat_features = [
 
 
 def predict(data):
-    scaler = joblib.load("scaler.pkl")
-    encoder = joblib.load("encoder.pkl")
-    lg_model = joblib.load("logistic_model.pkl")
-    lb = joblib.load("label_encoder.pkl")
+    scaler = joblib.load(os.path.join("starter", "code", "scaler.pkl"))
+    encoder = joblib.load(os.path.join("starter", "code","encoder.pkl"))
+    lg_model = joblib.load(os.path.join("starter", "code","logistic_model.pkl"))
+    lb = joblib.load(os.path.join("starter", "code","label_encoder.pkl"))
 
     data = clean_data(data)
 
@@ -31,7 +35,7 @@ def predict(data):
         encoder=encoder, scaler=scaler, lb=lb)
     
     preds = lb.inverse_transform(inference(lg_model, X_test))
-    return {"prediction": preds}
+    return json.dumps({"prediction": preds.tolist()})
 
 if __name__ == "__main__":
     data = """[{
