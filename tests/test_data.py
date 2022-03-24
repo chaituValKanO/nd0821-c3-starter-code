@@ -1,4 +1,6 @@
 import sys
+
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
 sys.path.append('../nd0821-c3-starter-code')
 
 import os
@@ -16,9 +18,11 @@ def test_shape(data, expected_columns):
     assert data.shape[0] > 1000
     assert data.shape[1] == len(expected_columns)
 
-
-def test_saved_files():
-    assert os.path.isfile("starter/code/scaler.pkl")
-    assert os.path.isfile("starter/code/logistic_model.pkl")
-    assert os.path.isfile("starter/code/encoder.pkl")
-    assert os.path.isfile("starter/code/label_encoder.pkl")
+def test_process_data(data, categorical_features, target_label):
+    _, _, encoder, scaler, lb = process_data(data, categorical_features, 
+                                            target_label, training=True, 
+                                            encoder=None, scaler=None, 
+                                            lb=None)
+    
+    assert isinstance(encoder, OneHotEncoder)
+    assert isinstance(scaler, StandardScaler)

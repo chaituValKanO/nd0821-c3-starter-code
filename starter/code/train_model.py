@@ -22,8 +22,8 @@ cat_features = [
     "native_country",
 ]
 
-for cat_col in cat_features:
-    slice_census_data(data, cat_col)
+
+slice_census_data(data, 'education')
 
 X_train, y_train, encoder, scaler, lb = process_data(
     train, categorical_features=cat_features, label="salary", training=True

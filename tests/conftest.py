@@ -26,3 +26,20 @@ def expected_columns():
             'hours_per_week',
             'native_country',
             'salary']
+
+@pytest.fixture(scope='session')
+def categorical_features():
+    return [
+        "workclass",
+        "education",
+        "marital_status",
+        "occupation",
+        "relationship",
+        "race",
+        "sex",
+        "native_country",
+    ]
+
+@pytest.fixture(scope='session')
+def target_label():
+    return 'salary'

@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import fbeta_score, precision_score, recall_score
 
 ## Slice testing
-def slice_census_data(df, cat_col):
+def slice_census_data(df, cat_col='education'):
     if os.path.isfile("slice_output.txt"):
         os.remove("slice_output.txt")
         
@@ -16,14 +16,13 @@ def slice_census_data(df, cat_col):
         stddev_hours = df_temp["hours_per_week"].std()
         
         file_object = open('slice_output.txt', 'a')
-        file_object.write(f'\n------Categorical feature {cat_col} -------')
+        file_object.write(f'\n------Holding Categorical feature {cat_col} and value {value} fixed -------')
         file_object.write(f"\nMean Hours Per Week: {mean_hours}")
         file_object.write(f"\nStd.Dev in Hours Per Week: {stddev_hours}")
         file_object.write('\n------------------------------------------')
         file_object.close()
 
 
-# Optional: implement hyperparameter tuning.
 def train_model(X_train, y_train):
     """
     Trains a machine learning model and returns it.

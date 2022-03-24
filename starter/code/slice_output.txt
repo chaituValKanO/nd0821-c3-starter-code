@@ -1,169 +1,65 @@
 
-------Categorical feature native_country -------
-Mean Hours Per Week: 40.44775454233802
-Std.Dev in Hours Per Week: 12.417203423444802
+------Holding Categorical feature education and value  Bachelors fixed -------
+Mean Hours Per Week: 42.614005602240894
+Std.Dev in Hours Per Week: 11.446185251583305
 ------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 39.1578947368421
-Std.Dev in Hours Per Week: 10.784460638594657
+------Holding Categorical feature education and value  HS-grad fixed -------
+Mean Hours Per Week: 40.575373773926295
+Std.Dev in Hours Per Week: 11.333757379985164
 ------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 38.592592592592595
-Std.Dev in Hours Per Week: 9.249023972530528
+------Holding Categorical feature education and value  11th fixed -------
+Mean Hours Per Week: 33.92595744680851
+Std.Dev in Hours Per Week: 13.965415981079637
 ------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 41.53
-Std.Dev in Hours Per Week: 12.295564610497113
+------Holding Categorical feature education and value  Masters fixed -------
+Mean Hours Per Week: 43.83633197910621
+Std.Dev in Hours Per Week: 12.277800841618587
 ------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 41.51286449399657
-Std.Dev in Hours Per Week: 12.427774398036018
+------Holding Categorical feature education and value  9th fixed -------
+Mean Hours Per Week: 38.04474708171206
+Std.Dev in Hours Per Week: 11.064402186511197
 ------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 40.34059097978227
-Std.Dev in Hours Per Week: 10.497767940730364
+------Holding Categorical feature education and value  Some-college fixed -------
+Mean Hours Per Week: 38.85228363736113
+Std.Dev in Hours Per Week: 12.761900546253433
 ------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 42.4125
-Std.Dev in Hours Per Week: 16.409856369753797
+------Holding Categorical feature education and value  Assoc-acdm fixed -------
+Mean Hours Per Week: 40.504217432052485
+Std.Dev in Hours Per Week: 12.19666591716329
 ------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 38.57017543859649
-Std.Dev in Hours Per Week: 9.84298797918242
+------Holding Categorical feature education and value  Assoc-voc fixed -------
+Mean Hours Per Week: 41.61070911722142
+Std.Dev in Hours Per Week: 10.79338445923092
 ------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 36.30769230769231
-Std.Dev in Hours Per Week: 10.904010083333374
+------Holding Categorical feature education and value  7th-8th fixed -------
+Mean Hours Per Week: 39.36687306501548
+Std.Dev in Hours Per Week: 14.20186968167154
 ------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 41.833333333333336
-Std.Dev in Hours Per Week: 14.012233820102113
+------Holding Categorical feature education and value  Doctorate fixed -------
+Mean Hours Per Week: 46.973365617433416
+Std.Dev in Hours Per Week: 15.084447322449915
 ------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 40.40495867768595
-Std.Dev in Hours Per Week: 13.17357108784902
+------Holding Categorical feature education and value  Prof-school fixed -------
+Mean Hours Per Week: 47.42534722222222
+Std.Dev in Hours Per Week: 14.80603812964895
 ------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 41.01459854014598
-Std.Dev in Hours Per Week: 12.328222882201356
+------Holding Categorical feature education and value  5th-6th fixed -------
+Mean Hours Per Week: 38.8978978978979
+Std.Dev in Hours Per Week: 10.551726936904199
 ------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 43.97674418604651
-Std.Dev in Hours Per Week: 11.863285444101864
+------Holding Categorical feature education and value  10th fixed -------
+Mean Hours Per Week: 37.052518756698824
+Std.Dev in Hours Per Week: 13.788112477336538
 ------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 39.5959595959596
-Std.Dev in Hours Per Week: 10.70643735568237
+------Holding Categorical feature education and value  1st-4th fixed -------
+Mean Hours Per Week: 38.25595238095238
+Std.Dev in Hours Per Week: 12.848726968703245
 ------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 41.602739726027394
-Std.Dev in Hours Per Week: 13.65013199572667
+------Holding Categorical feature education and value  Preschool fixed -------
+Mean Hours Per Week: 36.64705882352941
+Std.Dev in Hours Per Week: 12.555195784075632
 ------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 38.333333333333336
-Std.Dev in Hours Per Week: 11.715073104898115
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 39.067796610169495
-Std.Dev in Hours Per Week: 8.709614993628
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 40.89473684210526
-Std.Dev in Hours Per Week: 2.51428666362859
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 45.44444444444444
-Std.Dev in Hours Per Week: 20.071115395079925
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 39.57142857142857
-Std.Dev in Hours Per Week: 10.23584323700235
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 40.333333333333336
-Std.Dev in Hours Per Week: 3.8653818013992147
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 38.88235294117647
-Std.Dev in Hours Per Week: 15.24945514937964
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 36.90909090909091
-Std.Dev in Hours Per Week: 11.77663864432399
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 41.891891891891895
-Std.Dev in Hours Per Week: 8.717108923719374
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 42.47142857142857
-Std.Dev in Hours Per Week: 11.05155432516487
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 36.79245283018868
-Std.Dev in Hours Per Week: 9.531618541547042
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 45.06896551724138
-Std.Dev in Hours Per Week: 14.718625310622006
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 39.234375
-Std.Dev in Hours Per Week: 6.519183383225768
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 37.78666666666667
-Std.Dev in Hours Per Week: 11.05794728682491
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 43.693548387096776
-Std.Dev in Hours Per Week: 13.985459322040153
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 44.5625
-Std.Dev in Hours Per Week: 11.581414709208312
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 35.38709677419355
-Std.Dev in Hours Per Week: 11.283254315887294
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 41.857142857142854
-Std.Dev in Hours Per Week: 10.747859485333976
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 41.25
-Std.Dev in Hours Per Week: 9.799118698777317
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 37.36842105263158
-Std.Dev in Hours Per Week: 11.800237880444941
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 44.241379310344826
-Std.Dev in Hours Per Week: 15.92988021749826
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 36.1764705882353
-Std.Dev in Hours Per Week: 8.426043998746131
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 37.343283582089555
-Std.Dev in Hours Per Week: 11.962760701451021
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 40.9
-Std.Dev in Hours Per Week: 6.820248490611188
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 42.416666666666664
-Std.Dev in Hours Per Week: 8.355766905539559
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 35.61538461538461
-Std.Dev in Hours Per Week: 18.527180310463066
-------------------------------------------
-------Categorical feature native_country -------
-Mean Hours Per Week: 40.0
-Std.Dev in Hours Per Week: nan
+------Holding Categorical feature education and value  12th fixed -------
+Mean Hours Per Week: 35.78060046189376
+Std.Dev in Hours Per Week: 12.626412374598964
 ------------------------------------------

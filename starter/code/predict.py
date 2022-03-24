@@ -5,10 +5,8 @@ import pandas as pd
 import numpy as np
 import json
 
-from sklearn.model_selection import train_test_split
-
 from starter.code.data import clean_data, process_data
-from starter.code.model import compute_model_metrics, inference
+from starter.code.model import inference
 
 cat_features = [
     "workclass",
